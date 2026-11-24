@@ -15,7 +15,7 @@ let package = Package(
     .library(name: "BidmadMobwithAdapter", targets: ["BidmadMobwithAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.4")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
   ],
   targets: [
     .target(
@@ -27,8 +27,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadMobwithAdapter",
-      url: "https://github.com/bidmad/BidmadMobwithAdapter-SPM/releases/download/7.2.0-dev.4/BidmadMobwithAdapter.xcframework.zip",
-      checksum: "c3b02f66a1dc90c3bad2e8526ebf02d61bbd3cb63bb07acccb099c07d9959980"
+      url: "https://github.com/bidmad/BidmadMobwithAdapter-SPM/releases/download/7.2.0-dev.5/BidmadMobwithAdapter.xcframework.zip",
+      checksum: "0030fa31610c4ec8f05e4f197da05cf4661e61282ca5a43813e0ec3f156bb5a9"
     ),
   ]
 )
